@@ -16,6 +16,7 @@ const toggleUserState = (allUsers, userName /*callback*/) => {
   );
 
   //   callback(updatedUsers);
+  
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(updatedUsers);
